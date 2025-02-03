@@ -4,16 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-
-  // const stop = ()=>{
-  //   return counter = [0]
-  // }
-  const [counter, gurjant] = useState(10)
+  const [counter, gurjant] = useState(5)
   // let counter = 10;
 
   const addvalue = () =>{
     // console.log("button clicked", Math.random())
-    console.log("button clicked", counter)
+    // console.log("button clicked", counter)
     gurjant(counter + 1)
     if(counter >= 25){
       // console.log("valu is 9")
